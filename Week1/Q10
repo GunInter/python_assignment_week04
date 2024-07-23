@@ -1,0 +1,8 @@
+student = {"name": "Nonpravit", "age": 19, "grade": "C+"}
+print("Dictionary:", student)
+
+student["school"] = "KMITL UNI"
+print("Updated dictionary:", student)
+
+del student["grade"]
+print("Dictionary after removing 'grade':", student)

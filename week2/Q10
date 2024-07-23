@@ -1,0 +1,9 @@
+inventory = {
+"Audi": 5,
+"BMW" : 3,
+"Chevrolet":1
+}
+
+for i in inventory.items():
+
+    print(i)

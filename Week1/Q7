@@ -1,0 +1,12 @@
+scores = [88, 92, 75, 89, 78]
+scores.sort()
+print("Sorted scores in ascending order:", scores)
+
+
+scores.sort(reverse=True)
+print("Sorted scores in descending order:", scores)
+
+
+names = ["Alice", "Bob", "Charlie", "David", "Eve"]
+names.sort()
+print("Sorted names in alphabetical order:", names)

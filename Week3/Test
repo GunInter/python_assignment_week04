@@ -1,0 +1,10 @@
+students = [
+
+{"student_id": 1, "grade": 90},
+{"student_id": 2, "grade": 75},
+{"student_id": 3, "grade": 85},
+{"student_id": 4, "grade": 60},
+{"student_id": 5, "grade": 95},
+]
+
+criteria = lambda student: True if student

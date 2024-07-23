@@ -1,0 +1,7 @@
+citiesname = ["New York", "Los Angeles", "Chicago", "Houston", "Phoenix"]
+removed_element = citiesname.pop()
+
+print(removed_element)
+
+citiesname.pop(0)
+print(citiesname)

@@ -1,0 +1,4 @@
+age = 18,
+
+status = ["Adult" if n >= 18 else "Minor" for n in age]
+print(status)

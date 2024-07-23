@@ -1,0 +1,48 @@
+def add(x, y):
+    return x + y
+
+def subtract(x, y):
+    return x - y
+
+def multiply(x, y):
+    return x * y
+
+def divide(x, y):
+    if y == 0:
+        raise ValueError("Cannot divide by zero!")
+    return x / y
+
+
+def reverse_string(s):
+    return s[::-1]
+
+def capitalize_string(s):
+    return s.capitalize()
+
+def lowercase_string(s):
+    return s.lower()
+
+def uppercase_string(s):
+    return s.upper()
+
+
+if __name__ == "__main__":
+    
+    print("Using calculator functions:")
+    print("Addition:", add(10, 5))
+    print("Subtraction:", subtract(10, 5))
+    print("Multiplication:", multiply(10, 5))
+    
+    try:
+        print("Division:", divide(10, 5))
+    except ValueError as e:
+        print(e)
+
+
+    sample_string = "hello World"
+    print("\nUsing string operations functions:")
+    print("Original:", sample_string)
+    print("Reversed:", reverse_string(sample_string))
+    print("Capitalized:", capitalize_string(sample_string))
+    print("Lowercase:", lowercase_string(sample_string))
+    print("Uppercase:", uppercase_string(sample_string))

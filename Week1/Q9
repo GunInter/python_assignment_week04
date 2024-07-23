@@ -1,0 +1,11 @@
+letters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]
+first_five_letters = letters[:5]
+print("First 5 letters:", first_five_letters)
+
+
+last_five_letters = letters[5:]
+print("Last 5 letters:", last_five_letters)
+
+
+reversed_letters = letters[::-1]
+print("Reversed list:", reversed_letters)

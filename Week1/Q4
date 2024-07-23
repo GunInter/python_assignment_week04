@@ -1,0 +1,7 @@
+Animallist = ["cat", "dog", "rabbit", "bird", "fish"]
+
+Animallist.remove("rabbit")
+
+print (Animallist)
+
+

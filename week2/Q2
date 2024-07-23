@@ -1,0 +1,21 @@
+scores = 59
+
+if scores >= 0 and scores <= 100:
+    if scores < 60:
+        print("F")
+    
+    elif scores >= 60 and scores <= 69:
+        print("D")
+    
+    elif scores >= 70 and scores <= 79:
+        print("C")        
+    
+    elif scores >= 80 and scores <= 89:
+        print("B")        
+    
+    elif scores >= 90 and scores <= 100:
+        print("A")                
+else:
+    print("No score najai")
+
+

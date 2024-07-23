@@ -1,0 +1,10 @@
+Words = "Python programming is fun"
+
+uppercase_Words = Words.upper()
+print(uppercase_Words)
+
+replace_fun = Words.replace('fun','awesome')#replace words
+print(replace_fun)
+
+split_Words = Words.split()#print
+print(split_Words)
